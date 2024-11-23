@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garten- und Schneeservice Grünwald</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      line-height: 1.6;
+    }
+    header {
+      background: #2e7d32; /* Dunkelgrün */
+      color: white;
+      text-align: center;
+      padding: 40px 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em; /* Sehr große Schrift */
+    }
+    nav {
+      background: #388e3c; /* Passender Grünton */
+      padding: 15px;
+      text-align: center;
+      width: 100%;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      margin: 20px auto;
+      max-width: 1200px;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background: white;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    section img {
+      width: 40%;
+      height: auto;
+      border-radius: 10px;
+      margin: 0 20px;
+    }
+    section .content {
+      width: 60%;
+    }
+    section:nth-child(even) {
+      flex-direction: row-reverse; /* Text und Bild abwechseln */
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2e7d32;
+      color: white;
+      margin-top: 20px;
+    }
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Garten- und Schneeservice Grünwald</h1>
+  </header>
+
+  <nav>
+    <a href="#winter">Winterservice</a>
+    <a href="#sommer">Gartenarbeiten</a>
+    <a href="#preise">Preise</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section id="winter">
+    <img src="bilder/schnee.jpg" alt="Schnee schieben">
+    <div class="content">
+      <h2>Winterservice</h2>
+      <p>Im Winter kümmern wir uns um Ihre Sicherheit. Unsere Dienstleistungen umfassen:</p>
+      <ul>
+        <li>Schneeräumung für Gehwege und Einfahrten</li>
+        <li>Streudienst gegen Glätte</li>
+        <li>Schneebeseitigung auf Parkplätzen</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="sommer">
+    <img src="bilder/garten.jpg" alt="Gartenarbeit">
+    <div class="content">
+      <h2>Gartenarbeiten</h2>
+      <p>In den warmen Monaten sorgen wir für einen gepflegten Garten. Unsere Leistungen:</p>
+      <ul>
+        <li>Rasenmähen</li>
+        <li>Unkraut entfernen</li>
+        <li>Laub kehren</li>
+        <li>Sonstige Gartenarbeiten nach Absprache</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="preise">
+    <img src="https://via.placeholder.com/400x300?text=Preise" alt="Preisgestaltung">
+    <div class="content">
+      <h2>Preise</h2>
+      <p>Unsere Preise richten sich nach dem Aufwand und werden individuell mit Ihnen abgesprochen. Kontaktieren Sie uns für ein unverbindliches Angebot.</p>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <img src="https://via.placeholder.com/400x300?text=Kontakt" alt="Kontaktaufnahme">
+    <div class="content">
+      <h2>Kontakt</h2>
+      <p>Haben Sie Fragen oder möchten Sie unseren Service buchen? Schreiben Sie uns eine E-Mail:</p>
+      <p><a href="mailto:gartenservice.gruenwald@gmail.com">gartenservice.gruenwald@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Garten- und Schneeservice. Alle Rechte vorbehalten.</p>
+  </footer>
+</body>
+</html>
